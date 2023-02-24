@@ -1,0 +1,636 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /*header start*/
+  header {
+    padding: 10px 0;
+  }
+.logo {
+    width: 185px;
+    height: 37px;
+}
+  .menu ul li:first-child {
+    margin-left: 0 !important;
+  }
+  .menu ul li a {
+    margin-top: 5px;
+    padding: 0 !important;
+  }
+  .s_ddm {
+    width: 230px;
+  }
+  .s_ddm[data-bs-popper] {
+    padding: 0px 10px;
+    top: -5px;
+    left: 45px;
+  }
+  .s_input {
+    height: 40px;
+  }
+  .s_btn {
+    padding-left: 0;
+    height: 42px;
+  }
+
+
+  /*banner start*/
+.banner {
+    padding: 50px 0 60px;
+}
+  .banner::before {
+    height: 65%;
+    top: auto;
+    bottom: 0;
+  }
+  .b_img img {
+    padding: 20px;
+}
+  .b_text h2 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #fff;
+  }
+  .b_text h1 {
+    margin: 5px 0 20px;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+  }
+  .b_ptext p {
+    padding-right: 0;
+    color: #ebd0cf;
+  }
+  .b_ptext {
+    position: relative;
+  }
+
+  /* feature start*/
+  .feature {
+    padding: 50px 0 60px;
+}
+.f_title h2 {
+    font-size: 26px;
+}
+.f_title h1 {
+    font-size: 35px;
+}
+  .f_item {
+    margin-top: 35px;
+  }
+  .f_img img {
+    padding: 0 26px;
+}
+  .f_p {
+    font-size: 15px;
+  }
+
+ /*loal shop start*/
+.l_farmer {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-top: 0;
+}
+.l_farmer::before {
+    height: 575px;
+    width: 100%;
+    top: 205px;
+}
+.l_text {
+    margin-top: 20px;
+}
+.l_img img {
+    padding: 0 20px;
+}
+  .l_text h2 {
+    font-size: 18px;
+  }
+.l_text h1 {
+    margin: 5px 0 5px;
+    font-size: 35px;
+    line-height: 45px;
+}
+ .l_ptext p {
+    padding: 0 16px;
+}
+  .btn_l {
+    margin-top: 25px;
+  }
+
+    /*product start*/
+  .product {
+    padding: 0;
+}
+.p_img img {
+    padding: 0 15px;
+}
+.p_text {
+    padding: 15px 0 5px;
+    text-align: center;
+}
+.p_text h1 {
+    font-size: 33px;
+    line-height: 35px;
+}
+  .p_text p {
+    margin-top: 0;
+}
+.btn_p {
+    width: 150px;
+    margin-top: 15px;
+    padding: 2px 9px;
+    font-size: 15px;
+}
+.p_img2 img {
+    padding: 0 15px;
+}
+.p_text2 {
+    padding: 35px 0 20px;
+    text-align: center;
+}
+
+.p_text2 h1 {
+    margin-bottom: 5px;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+  /*testimonial start*/
+.testimonial {
+    padding: 40px 0 30px;
+}
+.t_title h1 {
+    font-size: 42px;
+  }
+  .t_title h2 {
+    font-size: 15px;
+  }
+  .t_img img {
+    width: 95px;
+    height: 95px;
+}
+.t_h3 {
+    margin: 15px 0 8px;
+    font-size: 16px;
+}
+ .t_p {
+    padding: 8px 20px 20px;
+}
+
+ 
+ /*local farm start*/
+ .l_farm {
+    padding: 35px 0 50px;
+}
+ .farm_t h1 {
+    margin-bottom: 30px;
+    font-size: 33px;
+    word-spacing: -5px;
+}
+  .farm_t1 h2 {
+    font-size: 20px;
+  }
+  .farm_t1 p {
+    padding: 0 8px;
+    margin: 6px 0 40px;
+}
+.btn_f {
+    margin-top: 0;
+}
+  /*footer start*/
+footer {
+    padding: 50px 0 50px;
+}
+  .text_1 h1 {
+    font-size: 34px;
+  }
+  .s_footer {
+    padding: 10px 0 5px;
+}
+ .s_footer h2 {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+  .f_link {
+    margin-top: 12px;
+  }
+.copyright p {
+    margin-top: 0px;
+    padding-left: 20px;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*header start*/
+  .menu ul li:first-child {
+    margin-left: 0 !important;
+  }
+  .menu ul li a {
+    margin-top: 10px;
+    padding: 0 !important;
+  }
+  .s_ddm[data-bs-popper] {
+    padding: 0 10px;
+    top: -5px;
+    left: 45px;
+  }
+  .s_input {
+    height: 40px;
+  }
+  .s_btn {
+    height: 40px;
+  }
+
+  /*banner start*/
+  .banner {
+    padding: 60px 0 70px;
+  }
+  .banner::before {
+    height: 60%;
+    top: 245px;
+  }
+  .b_text h2 {
+    margin-top: 60px;
+    font-size: 22px;
+  }
+  .b_text h1 {
+    margin: 5px 0 25px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .b_ptext p {
+    padding-right: 0;
+    color: #ebd0cf;
+  }
+  .b_ptext {
+    position: relative;
+  }
+
+  /* feature start*/
+  .feature {
+    padding: 60px 0 50px;
+  }
+  .f_title h1 {
+    font-size: 40px;
+  }
+  .f_item {
+    margin-top: 50px;
+  }
+  .f_p {
+    font-size: 15px;
+  }
+
+  /*loal shop start*/
+  .l_farmer {
+    margin-top: 65px;
+    margin-bottom: 88px;
+    padding-top: 20px;
+  }
+  .l_farmer::before {
+    height: 667px;
+  }
+  .l_text h2 {
+    font-size: 18px;
+  }
+  .l_text h1 {
+    margin: 5px 0 10px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .l_ptext p {
+    padding: 0 10px;
+  }
+  .btn_l {
+    margin-top: 25px;
+  }
+
+  /*product start*/
+  .product {
+    padding: 0;
+}
+  .p_text {
+    padding: 25px 0 5px;
+  }
+  .p_text h1 {
+    font-size: 38px;
+    line-height: 42px;
+}
+  .p_text p {
+    margin-top: 0;
+}
+  .btn_p {
+    width: 160px;
+    margin-top: 12px;
+    padding: 4px 12px;
+    font-size: 15px;
+  }
+  .p_text2 {
+    padding: 20px 0 20px;
+  }
+  .p_text2 h1 {
+    margin-bottom: 5px;
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  /*testimonial start*/
+  .testimonial {
+    padding: 70px 0 30px;
+  }
+  .t_title h1 {
+    font-size: 50px;
+  }
+  .t_title h2 {
+    font-size: 16px;
+  }
+  .t_p {
+    padding: 0px 54px 40px;
+  }
+
+  /*local farm start*/
+  .l_farm {
+    padding: 50px 0 60px;
+  }
+  .farm_t h1 {
+    margin-bottom: 45px;
+    font-size: 45px;
+    word-spacing: -5px;
+  }
+  .farm_t1 h2 {
+    font-size: 22px;
+  }
+  .farm_t1 p {
+    padding: 0 36px;
+    margin: 10px 0 40px;
+  }
+  .farm_t1 p:last-child {
+    margin-bottom: 30px;
+  }
+  /*footer start*/
+  footer {
+    padding: 60px 0 50px;
+  }
+
+  .text_1 h1 {
+    font-size: 34px;
+  }
+  .s_footer {
+    padding: 10px 0 15px;
+  }
+  .s_footer h2 {
+    font-size: 18px;
+  }
+  .f_link {
+    margin-top: 12px;
+  }
+  .copyright p {
+    margin-top: 15px;
+  }
+  .copyright p {
+    margin-top: 5px;
+    padding-left: 50px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*header start*/
+  .menu ul li:first-child {
+    margin-left: 0 !important;
+  }
+  .menu ul li a {
+    margin-top: 10px;
+    padding: 0 !important;
+  }
+  .s_ddm[data-bs-popper] {
+    top: -8px;
+    left: 56px;
+  }
+  .s_input {
+    height: 40px;
+  }
+  .s_btn {
+    height: 40px;
+  }
+
+  /*banner start*/
+  .banner {
+    padding: 80px 0 100px;
+  }
+  .banner::before {
+    height: 44%;
+    top: 278px;
+  }
+  .b_text h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  .b_text h1 {
+    margin: 5px 0 42px;
+    font-size: 53px;
+    line-height: 65px;
+  }
+  .b_ptext p {
+    padding-right: 0;
+    color: #ebd0cf;
+  }
+  .b_ptext {
+    position: relative;
+  }
+
+  /* feature start*/
+  .feature {
+    padding: 50px 0 60px;
+  }
+  .f_title h1 {
+    font-size: 40px;
+  }
+  .f_item {
+    margin-top: 50px;
+  }
+  .f_p {
+    font-size: 15px;
+  }
+
+  /*loal shop start*/
+  .l_farmer {
+    margin-top: 70px;
+    margin-bottom: 88px;
+    padding-top: 30px;
+  }
+  .l_farmer::before {
+    height: 690px;
+  }
+  .l_text h2 {
+    font-size: 22px;
+  }
+  .l_text h1 {
+    margin: 10px 0 15px;
+    font-size: 60px;
+    line-height: 80px;
+  }
+  /*product start*/
+  .p_text {
+    padding: 40px 10px 10px 30px;
+  }
+  .p_text h1 {
+    font-size: 65px;
+    line-height: 80px;
+  }
+  .p_text p {
+    margin-top: 10px;
+  }
+  .btn_p {
+    margin-top: 25px;
+  }
+  .p_text2 {
+    padding: 70px 10px 17px 35px;
+  }
+  .p_text2 h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .btn_p {
+    margin-top: 20px;
+  }
+
+  /*testimonial start*/
+  .testimonial {
+    padding: 70px 0 30px;
+  }
+  .t_title h1 {
+    font-size: 55px;
+  }
+  .t_title h2 {
+    font-size: 18px;
+  }
+  .t_p {
+    padding: 0px 10px 60px;
+  }
+
+  /*local farm start*/
+  .l_farm {
+    padding: 60px 0 70px;
+  }
+  .farm_t h1 {
+    margin-bottom: 55px;
+    font-size: 65px;
+  }
+  .farm_t1 h2 {
+    font-size: 22px;
+  }
+  .farm_t1 p {
+    padding: 0 36px;
+    margin: 10px 0 40px;
+  }
+  .farm_t1 p:last-child {
+    margin-bottom: 30px;
+  }
+  /*footer start*/
+  footer {
+    padding: 70px 0 60px;
+  }
+  .text_1 h1 {
+    font-size: 50px;
+  }
+  .copyright p {
+    padding-left: 130px;
+    margin-top: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*banner start*/
+  .banner {
+    padding: 80px 0 100px;
+  }
+  .banner::before {
+    top: 345px;
+  }
+  .b_text h1 {
+    margin: 10px 0 45px;
+    font-size: 75px;
+    line-height: 80px;
+  }
+  .btn_s {
+    margin: 20px 0 0;
+  }
+  /* feature start*/
+  .feature {
+    padding: 50px 0 60px;
+  }
+  .f_title h1 {
+    font-size: 40px;
+  }
+
+  /*loal shop start*/
+  .l_text h2 {
+    font-size: 28px;
+  }
+  .l_text h1 {
+    margin: 10px 0 15px;
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  /*product start*/
+  .p_text {
+    padding: 0 0;
+  }
+  .p_text2 h1 {
+    font-size: 55px;
+    line-height: 75px;
+  }
+  .p_text2 {
+    padding: 209px 50px 58px 105px;
+  }
+  /*testimonial start*/
+  .t_title h1 {
+    font-size: 50px;
+  }
+  .t_title h2 {
+    font-size: 18px;
+  }
+  /*local farm start*/
+  .l_farm {
+    padding: 70px 0 70px;
+  }
+  .farm_t h1 {
+    margin-bottom: 65px;
+  }
+  .farm_t1 h2 {
+    margin-top: 18px;
+    font-size: 20px;
+  }
+  .farm_t1 p {
+    margin: 5px 0 45px;
+    text-align: center;
+  }
+  /*footer start*/
+  footer {
+    padding: 80px 0 70px;
+  }
+  .copyright p {
+    margin-top: 30px;
+  }
+}
+
+/* Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /*product start*/
+  .p_text {
+    padding: 175px 140px 210px 45px;
+  }
+
+  .p_text2 h1 {
+    font-size: 70px;
+  }
+  .p_text2 {
+    padding: 246px 50px 136px 130px;
+  }
+}
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
